@@ -1,0 +1,4 @@
+interface:
+  display_name: "Responsive Storefront Design"
+  short_description: "Design and refine responsive storefronts"
+  default_prompt: "Create or refine this storefront as a polished, responsive design. Follow my references and make mobile a deliberate layout."
