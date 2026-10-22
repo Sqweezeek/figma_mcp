@@ -71,7 +71,7 @@ button { font: inherit; }
 .copyright, .footer-links { color: var(--muted); font-size: 9px; text-transform: uppercase; letter-spacing: .05em; }
 .footer-links { display: flex; justify-content: center; gap: 18px; }
 .social-links { display: flex; align-items: center; gap: 8px; }
-.social-icon { min-height: 30px; display: inline-flex; align-items: center; gap: 7px; padding: 0 8px; border: 1px solid var(--line); color: var(--paper); font-size: 9px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; white-space: nowrap; transition: border-color .2s ease, background-color .2s ease; }
+.social-icon { width: 30px; height: 30px; flex: 0 0 30px; display: grid; place-items: center; border: 1px solid var(--line); color: var(--paper); transition: border-color .2s ease, background-color .2s ease; }
 .social-icon:hover, .social-icon:focus-visible { border-color: var(--orange); background: rgba(255, 90, 39, .12); }
 .social-icon img { width: 14px; height: 14px; display: block; filter: brightness(0) invert(1); }
 
