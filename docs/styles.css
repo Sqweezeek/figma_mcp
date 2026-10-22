@@ -154,3 +154,5 @@ button { font: inherit; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; }
 }
+.social-icon > span { display: none !important; }
+.social-icon { font-size: 0; line-height: 0; }
